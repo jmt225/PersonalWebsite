@@ -1,0 +1,273 @@
+html {
+  box-sizing: border-box;
+  background-image: url(/imagesDocuments/gradient-pink.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #f8f8f8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h1, h2, h3, a {
+  font-weight: 200;
+  color: rgb(226, 125, 96);
+}
+
+nav {
+  width: 100vw;
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li a {
+  font-size: 20px;
+}
+
+/*button styling*/
+button {
+  padding: 5px 10px;
+  background-color: off-white;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+/*view "button" styling*/
+.view {
+  border: 2px solid #AFD275;
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 0;
+  color: #AFD275;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: #AFD275;
+}
+
+#navbar, #portfolio, #quote, #resume, #contact {
+  padding: 20px;
+}
+
+#about {
+  display: flex;
+}
+
+.about-text {
+  width: 60%;
+  background: linear-gradient(#F7CAC9, #FFD2A9);
+  padding-top: 50px;
+}
+
+.empty {
+  background: linear-gradient(to left, #AFD275, #f8f8f8);
+  width: 40%;
+}
+
+.about-me {
+  text-align: justify;
+  margin: auto;
+  padding: 15px;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.code-cartoon {
+  height: 50%;
+  width: 60%;
+  border-radius: 50%;
+  position: relative;
+  top: 20%;
+  left: -50%;
+}
+
+.bg-img {
+  background-image: url(/imagesDocuments/me.jpg);
+  height: 100%;
+  filter: blur(2px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home {
+  height: 1050px;
+}
+
+.home-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about, #portfolio, #resume, #contact {
+  height: 850px;
+}
+
+.hello {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.contact-links {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.quote-paragraph {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.organizer-display {
+  width: 50%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  width: 100px;
+}
+
+.organizer-header {
+  width: 50%;
+}
+
+form {
+  width: 50%;
+  margin: 0px 0px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.task-list {
+  background-color: #f8f8f8;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.task-item {
+  color: black;
+  list-style: none;
+  display: flex;
+}
+
+.list-description {
+  flex-grow: 2;
+  text-align: justify;
+  padding: 10px;
+}
+
+.list-name {
+  margin-bottom: 10px;
+}
+
+.email {
+  color: #f8f8f8;
+}
+
+.touch {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.email-div {
+  width: 100%;
+}
+
+.fa-brands {
+  font-size: 25px;
+}
+
+.fa-linkedin {
+  margin-right: 10px;
+}
+
+.top {
+  margin-bottom: 20px;
+}
+
+.github-link {
+  color: black;
+}
